@@ -18,7 +18,7 @@ set number relativenumber
 set cursorcolumn
 "set nonumber norelativenumber  " turn hybrid line numbers off
 "set !number !relativenumber    " toggle hybrid line numbers
-filetype off 
+filetype off
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -50,7 +50,7 @@ Plugin 'inkarkat/vim-ingo-library'
 Plugin 'inkarkat/vim-spellcheck'
 Plugin 'kien/rainbow_parentheses.vim'
 
-call vundle#end()  
+call vundle#end()
 "-------------- PLUGINS END --------------------
 filetype plugin indent on
 set tabstop=4
